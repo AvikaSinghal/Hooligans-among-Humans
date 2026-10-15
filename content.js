@@ -142,11 +142,16 @@ window.PUBLICATION = {
       date: "2026-10-14",
       readMinutes: 2,
       kind: "A first note",
-      excerpt: "A small introduction to this space: part psychology explainer, part open notebook about being a person among other people.",
+      subheading: "Hooligans Among Humans",
+      excerpt: "A notebook for questions about psychology, neuroscience, AI, rabbit holes, new projects, and the everyday details of being human.",
       paragraphs: [
-        "Hooligans Among Humans is starting as a place to follow questions about people: how we think, what catches our attention, what we do together, and how a life keeps changing us.",
-        "Some entries here will be structured explainers, built around published research and links you can follow. Others will be looser notes from the person behind the site: projects, things I’m reading, current interests, and ordinary life as it happens.",
-        "This is the first page of the notebook. The details of the person writing it will grow here over time."
+        "I have a lot of questions. Some are about why humans do the things they do, some are about how our brains work, and some are the kind of questions that send me down a Wikipedia rabbit hole at 1 a.m. and somehow leave me knowing everything about a topic I had absolutely no intention of learning about.",
+        "This blog is where all of that goes.",
+        "I’m interested in psychology, neuroscience, AI, and pretty much anything that helps me understand people a little better. I like reading research, connecting dots, starting projects, and occasionally wondering if I’ve overthought something that really did not need to be overthought.",
+        "But I also want this to be a place for everything else. Things I’m reading, things I’m building, ideas I can’t stop thinking about, little observations, and bits of life that might not mean much to anyone else but mean something to me.",
+        "Some posts will be researched and sourced. Others will just be me, thinking out loud.",
+        "I’m not here because I have everything figured out. Quite the opposite, actually. I’m here because there’s so much I don’t know, and I think that’s a pretty good place to start.",
+        "Anyway, welcome to the notebook. Let’s see where this goes."
       ]
     }
   ],

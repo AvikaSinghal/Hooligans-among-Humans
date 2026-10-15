@@ -79,7 +79,7 @@
   function renderLogEntry(slug) {
     const entry = publication.personalLog.find((item) => item.slug === slug);
     if (!entry) return renderNotFound("We couldn’t find that journal entry.", "?page=log", "Back to the Personal Log");
-    return `<article class="article-page log-entry-page"><header class="article-header"><a class="back-link" href="?page=log" data-nav>← Personal Log</a><p class="eyebrow">${escapeHTML(entry.kind)}</p><h1>${escapeHTML(entry.title)}</h1><p class="article-deck">${escapeHTML(entry.excerpt)}</p><div class="byline"><span>A personal note</span><span>${dateLabel(entry.date)}</span><span>${entry.readMinutes} min read</span></div></header><div class="article-body">${entry.paragraphs.map((paragraph) => `<p>${escapeHTML(paragraph)}</p>`).join("")}</div><p class="editor-note">Personal reflections from Hooligans Among Humans. Opinions and experiences are the author’s own.</p></article>`;
+    return `<article class="article-page log-entry-page"><header class="article-header"><a class="back-link" href="?page=log" data-nav>← Personal Log</a><p class="eyebrow">${escapeHTML(entry.kind)}</p><h1>${escapeHTML(entry.title)}</h1><p class="article-deck">${escapeHTML(entry.excerpt)}</p><div class="byline"><span>A personal note</span><span>${dateLabel(entry.date)}</span><span>${entry.readMinutes} min read</span></div></header><div class="article-body">${entry.subheading ? `<h2>${escapeHTML(entry.subheading)}</h2>` : ""}${entry.paragraphs.map((paragraph) => `<p>${escapeHTML(paragraph)}</p>`).join("")}</div><p class="editor-note">Personal reflections from Hooligans Among Humans. Opinions and experiences are the author’s own.</p></article>`;
   }
 
   function renderResearch() {
